@@ -17,6 +17,11 @@
         e.returnValue = confirmationMessage;
         return confirmationMessage;
     });
-    document.title = "Classes"
+    document.title = "Google"
     // Your code here...
+    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    link.type = 'image/x-icon';
+    link.rel = 'shortcut icon';
+    link.href = 'https://www.google.com/s2/favicons?domain_url=google.com';
+    document.getElementsByTagName('head')[0].appendChild(link);
 })();
