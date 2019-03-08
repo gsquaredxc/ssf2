@@ -10,8 +10,10 @@
 
 (function() {
     'use strict';
-    window.onbeforeunload = function(){
-        return "Don't leave me!";
-    };
+    window.addEventListener("beforeunload", function (e) {
+        var confirmationMessage = "\o/";
+        e.returnValue = confirmationMessage;
+        return confirmationMessage;
+    });
     // Your code here...
 })();
