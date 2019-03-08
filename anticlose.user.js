@@ -5,8 +5,8 @@
 // @description  try to take over the world!
 // @author       You
 // @match        www.mcleodgaming.com/games/ssf2
-// @update       https://github.com/gsquaredxc/ssf2/edit/master/anticlose.meta.js
-// @download     https://github.com/gsquaredxc/ssf2/edit/master/anticlose.user.js
+// @update       https://raw.githubusercontent.com/gsquaredxc/ssf2/master/anticlose.meta.js
+// @download     https://raw.githubusercontent.com/gsquaredxc/ssf2/master/anticlose.meta.js
 // @grant        none
 // ==/UserScript==
 
